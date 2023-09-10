@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 .classic {
-	background: #111;
+	background: #292f33;
 	color: white;
 	margin: 0;
 	--bg-c: #111;
@@ -19,8 +19,8 @@
 .ocean {
 	margin: 0;
 	color: white;
-	background: #161923;
-	--bg-c: #161923;
+	background: #292f33;
+	--bg-c: #292f33;
 
 }
 
@@ -31,7 +31,7 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .input {
@@ -42,11 +42,11 @@
 	border-radius: 10px;
 	border-style: solid;
 	border-width: 2px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .input ::placeholder {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color: white;
 }
 
@@ -84,23 +84,3 @@
 	width: 80%;
 }
 
-#particles-js {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: var(--bg-c);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 50% 50%;
-	overflow: hidden;
-}
-
-.particles-js-canvas-el {
-	z-index: 0;
-	top: 0;
-	left: 0;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	pointer-events: none;
-}
