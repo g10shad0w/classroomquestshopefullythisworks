@@ -2,7 +2,7 @@
 
 .classic {
 	background: #292f33;
-	color: white;
+	color: #1db1f5;
 	margin: 0;
 	--bg-c: #111;
 	overflow: hidden;
@@ -18,7 +18,7 @@
 
 .ocean {
 	margin: 0;
-	color: white;
+	color: #1db1f5;
 	background: #292f33;
 	--bg-c: #292f33;
 
