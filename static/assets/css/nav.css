@@ -20,7 +20,7 @@ body {
   min-height: 90px;
   padding: 0 15px;
   box-sizing: border-box;
-  background-color: transparent;
+  background-color: #1db1f5;
   backdrop-filter: blur(20px);
   box-shadow: 0 0 15px 2px #1db1f5;
   z-index: 100;
